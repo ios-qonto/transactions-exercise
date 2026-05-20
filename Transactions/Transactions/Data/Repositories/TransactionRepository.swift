@@ -1,6 +1,6 @@
 import Foundation
 
-private struct TransactionResponse: Decodable {
+struct TransactionResponse: Decodable {
     let results: [TransactionDTO]
 }
 
