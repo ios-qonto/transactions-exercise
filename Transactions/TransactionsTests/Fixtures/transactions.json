@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "id": "txn-1",
+      "counterpartyName": "Apple",
+      "amount": {
+        "value": "9.99",
+        "currency": "EUR"
+      },
+      "emittedAt": "2024-01-15T10:30:00.000Z",
+      "status": "COMPLETED",
+      "note": null
+    },
+    {
+      "id": "txn-2",
+      "counterpartyName": "Netflix",
+      "amount": {
+        "value": "13.99",
+        "currency": "EUR"
+      },
+      "emittedAt": "2024-01-16T08:00:00.000Z",
+      "status": "PENDING",
+      "note": "Monthly subscription"
+    },
+    {
+      "id": "txn-3",
+      "counterpartyName": "Uber",
+      "amount": {
+        "value": "24.50",
+        "currency": "EUR"
+      },
+      "emittedAt": "2024-01-17T19:45:00.000Z",
+      "status": "DECLINED",
+      "note": null
+    }
+  ]
+}
